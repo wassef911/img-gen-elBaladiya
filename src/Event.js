@@ -19,8 +19,10 @@ class Event {
       img.print(font, 1175, 845, this.date);
       img.blit(logo, 1420, 0);
 
-      // save
-      await img.writeAsync("assets/newEvent.png");
+      // save to path
+      const outPath = "assets/newEvent.png";
+      await img.writeAsync(outPath);
+      return outPath;
     } catch (err) {
       console.log(err);
     }
