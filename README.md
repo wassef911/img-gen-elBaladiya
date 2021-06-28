@@ -1,7 +1,7 @@
 # elBaladiya
 
 ---
-
+This is just a demo, waiting for confirmation to start tweaking it, trying edge cases and maybe turn it to an API.  
 ### Requirements
 
 For development, you will only need NodeJS && (NPM || YARN) installed in your environement.
