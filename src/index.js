@@ -1,11 +1,10 @@
 #!/usr/bin/env node
-
+// ./src/index.js event --logo="assets/logo.png" --date="30 janvier 2020 - 20:20"
 const yargs = require("yargs");
 
 const Event = require("./Event");
 
 (function () {
-  // ./src/index.js event --logo="assets/logo.png" --date="30 janvier 2020 - 20:20"
   yargs.command({
     command: "event",
     describe: "create new event post.",
